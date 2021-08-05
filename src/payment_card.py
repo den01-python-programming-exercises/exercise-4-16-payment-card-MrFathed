@@ -3,7 +3,7 @@ class PaymentCard:
         self.balance = opening_balance
 
     def __str__(self):
-        return "The card has a balance of {} pounds.".format(self.balance)
+        return "The card has a balance of {} pounds".format(self.balance)
 
     def eat_affordably(self):
         if self.balance >= 2.60:
